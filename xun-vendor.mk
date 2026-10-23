@@ -493,6 +493,7 @@ PRODUCT_PACKAGES += \
     libmcs \
     libmdmdetect \
     libmdsprpc \
+    libmisight \
     libofflinelog \
     libpasrutils \
     libpdmapper \
@@ -804,7 +805,6 @@ PRODUCT_PACKAGES += \
     libminkdescriptor \
     libminksocket_vendor \
     libmiracast \
-    libmisight \
     libmm-hdcpmgr \
     libmmcamera_cac3 \
     libmmcamera_lscv35 \
