@@ -12,6 +12,7 @@ AB_OTA_PARTITIONS += \
     imagefv \
     keymaster \
     modem \
+    multiimgoem \
     qupfw \
     rpm \
     tz \

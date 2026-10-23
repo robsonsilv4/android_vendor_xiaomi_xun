@@ -542,7 +542,6 @@ PRODUCT_PACKAGES += \
     libvideoutils \
     libvmmem \
     qti.video.utils.videobufferlayout \
-    sns_client_example \
     libasphere \
     libdlbvol \
     libhwdap \
@@ -1174,8 +1173,8 @@ PRODUCT_PACKAGES += \
     vendor.qti.ims.rcsuce-V1.2-java \
     vendor.qti.ims.rcsuceaidlservice-V1-java \
     android.hardware.security.keymint-service-qti.xml \
-    c2_manifest_vendor.xml \
     c2_manifest_vendor_audio.xml \
+    c2_manifest_vendor_xun.xml \
     manifest_android.hardware.drm-service.widevine.xml \
     manifest_non_qmaa.xml \
     manifest_non_qmaa_extn.xml \
