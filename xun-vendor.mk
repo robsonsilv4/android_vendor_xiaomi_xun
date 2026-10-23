@@ -757,6 +757,7 @@ PRODUCT_PACKAGES += \
     libgnsspps \
     libgpt \
     libgpudataproducer \
+    libgralloccore \
     libhdcp1prov \
     libhdcp2p2prov \
     libhdcpsrm \
