@@ -36,6 +36,11 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
             <instance>default</instance>
             <instance>software</instance>
         </interface>
-      <fqname>@1.0::IComponentStore/default1</fqname> <!-- DOLBY ADD -->
+        <!-- The 209 package also declares a Dolby store at default1, but the
+             vendor.dolby.media.c2@1.0-service that provides it is not part of
+             the vendor tree. MediaCodecList waits for every store the manifest
+             declares, and the wait blocks MediaProvider's onCreate, which
+             blocks the emulated storage mount. The declaration is removed
+             until the Dolby service and its codec2 libraries are shipped. -->
    </hal>
 </manifest>
